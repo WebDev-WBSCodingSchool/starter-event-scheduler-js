@@ -49,14 +49,14 @@ of from the inside.
 | FR019     | Give users clear feedback for API, network, authentication, and missing-resource errors.                              |
 | FR020     | Keep the interface usable on mobile and desktop.                                                                      |
 | FR021     | Build the frontend and deploy the static output to Render.                                                            |
-| **X1**    | Editing Events: Load an event into a prefilled form, save edits, and show the updated event.                          |
-| **X2**    | Fetch: Cancel or ignore stale requests so fast navigation never shows the wrong event details.                        |
-| **X3**    | Layout: Show the signed-in user in the shared header and pass that user to nested pages.                              |
-| **X4**    | Pagination: Let users move through every page of events with previous and next controls.                              |
-| **X5**    | Create Event User Feedback: Show when event creation is in progress and disable submission until it finishes.         |
-| **X6**    | Signed in users can delete events: Confirm and delete an event, then return to an event list that no longer shows it. |
-| **X7**    | 404 page: Show a clear Not Found page for unknown app URLs and missing events.                                        |
-| **X8**    | Logout: Let users sign out from the shared header, clear their session, and leave protected pages.                    |
+| **FR022** | Editing Events: Load an event into a prefilled form, save edits, and show the updated event.                          |
+| **FR023** | Fetch: Cancel or ignore stale requests so fast navigation never shows the wrong event details.                        |
+| **FR024** | Layout: Show the signed-in user in the shared header and pass that user to nested pages.                              |
+| **FR025** | Pagination: Let users move through every page of events with previous and next controls.                              |
+| **FR026** | Create Event User Feedback: Show when event creation is in progress and disable submission until it finishes.         |
+| **FR027** | Signed in users can delete events: Confirm and delete an event, then return to an event list that no longer shows it. |
+| **FR028** | 404 page: Show a clear Not Found page for unknown app URLs and missing events.                                        |
+| **FR029** | Logout: Let users sign out from the shared header, clear their session, and leave protected pages.                    |
 
 **Bold = you type this one yourself.** For the others, you may ask the agent to
 help you implement them.
