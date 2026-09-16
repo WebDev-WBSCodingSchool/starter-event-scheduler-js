@@ -28,35 +28,35 @@ of from the inside.
 
 ## The requirements
 
-| ID        | Requirement                                                                                                           |
-| --------- | --------------------------------------------------------------------------------------------------------------------- |
-| FR003     | Work in one public group fork, add every teammate as a collaborator, and target that fork with Pull Requests.         |
-| FR004     | Work on task branches and merge every code change into `main` through a Pull Request.                                 |
-| FR005     | Build on the provided React and Vite starter.                                                                         |
-| FR006     | Agree on one styling solution at kickoff and use it consistently.                                                     |
-| **FR007** | Configure the app's route tree with React Router in Declarative Mode, including its layouts and outlets.              |
-| FR008     | Use React state and effects in the protected feature work below.                                                      |
-| **FR009** | Store and retrieve the authentication token in `localStorage`.                                                        |
-| FR010     | Run the provided Events API locally, preferably at `http://localhost:3001`.                                           |
-| **FR011** | Fetch the events for the home page, show failures, and display the results as chronological cards.                    |
-| **FR012** | Make each event card navigate to `/events/:id` through React Router.                                                  |
-| **FR013** | Read the route ID, fetch that event on the details page, and show failures to the user.                               |
-| **FR014** | Register a user, show success or failure, and navigate to Sign-In after success.                                      |
-| **FR015** | Sign a user in, show success or failure, store the returned token, and navigate home.                                 |
-| **FR016** | Guard authenticated routes with a protected layout and redirect signed-out users to Sign-In.                          |
-| **FR017** | Let a signed-in user create an event through an authenticated request and show the result.                            |
-| FR018     | Attach the stored token to every request that needs authentication.                                                   |
-| FR019     | Give users clear feedback for API, network, authentication, and missing-resource errors.                              |
-| FR020     | Keep the interface usable on mobile and desktop.                                                                      |
-| FR021     | Build the frontend and deploy the static output to Render.                                                            |
-| **FR022** | Editing Events: Load an event into a prefilled form, save edits, and show the updated event.                          |
-| **FR023** | Fetch: Cancel or ignore stale requests so fast navigation never shows the wrong event details.                        |
-| **FR024** | Layout: Show the signed-in user in the shared header and pass that user to nested pages.                              |
-| **FR025** | Pagination: Let users move through every page of events with previous and next controls.                              |
-| **FR026** | Create Event User Feedback: Show when event creation is in progress and disable submission until it finishes.         |
-| **FR027** | Signed in users can delete events: Confirm and delete an event, then return to an event list that no longer shows it. |
-| **FR028** | 404 page: Show a clear Not Found page for unknown app URLs and missing events.                                        |
-| **FR029** | Logout: Let users sign out from the shared header, clear their session, and leave protected pages.                    |
+| ID        | Requirement                                                                                                               |
+| --------- | ------------------------------------------------------------------------------------------------------------------------- |
+| FR003     | Work in one public group fork, add every teammate as a collaborator, and target that fork with Pull Requests.             |
+| FR004     | Work on task branches and merge every code change into `main` through a Pull Request.                                     |
+| FR005     | Build on the provided React and Vite starter.                                                                             |
+| FR006     | Agree on one styling solution at kickoff and use it consistently.                                                         |
+| **FR007** | **Configure the app's route tree with React Router in Declarative Mode, including its layouts and outlets.**              |
+| FR008     | Use React state and effects in the protected feature work below.                                                          |
+| **FR009** | **Store and retrieve the authentication token in `localStorage`.**                                                        |
+| FR010     | Run the provided Events API locally, preferably at `http://localhost:3001`.                                               |
+| **FR011** | **Fetch the events for the home page, show failures, and display the results as chronological cards.**                    |
+| **FR012** | **Make each event card navigate to `/events/:id` through React Router.**                                                  |
+| **FR013** | **Read the route ID, fetch that event on the details page, and show failures to the user.**                               |
+| **FR014** | **Register a user, show success or failure, and navigate to Sign-In after success.**                                      |
+| **FR015** | **Sign a user in, show success or failure, store the returned token, and navigate home.**                                 |
+| **FR016** | **Guard authenticated routes with a protected layout and redirect signed-out users to Sign-In.**                          |
+| **FR017** | **Let a signed-in user create an event through an authenticated request and show the result.**                            |
+| FR018     | Attach the stored token to every request that needs authentication.                                                       |
+| FR019     | Give users clear feedback for API, network, authentication, and missing-resource errors.                                  |
+| FR020     | Keep the interface usable on mobile and desktop.                                                                          |
+| FR021     | Build the frontend and deploy the static output to Render.                                                                |
+| **FR022** | **Editing Events: Load an event into a prefilled form, save edits, and show the updated event.**                          |
+| **FR023** | **Fetch: Cancel or ignore stale requests so fast navigation never shows the wrong event details.**                        |
+| **FR024** | **Layout: Show the signed-in user in the shared header and pass that user to nested pages.**                              |
+| **FR025** | **Pagination: Let users move through every page of events with previous and next controls.**                              |
+| **FR026** | **Create Event User Feedback: Show when event creation is in progress and disable submission until it finishes.**         |
+| **FR027** | **Signed in users can delete events: Confirm and delete an event, then return to an event list that no longer shows it.** |
+| **FR028** | **404 page: Show a clear Not Found page for unknown app URLs and missing events.**                                        |
+| **FR029** | **Logout: Let users sign out from the shared header, clear their session, and leave protected pages.**                    |
 
 **Bold = you type this one yourself.** For the others, you may ask the agent to
 help you implement them.
