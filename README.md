@@ -3,19 +3,19 @@
 Five days (full time) / ten days (part time). Group project, with a mandatory
 presentation at a time set by your instructor.
 
-This repo is your starting point. **Fork it once for your group** and add your team
-members as collaborators. One fork, everyone works in it, and every change merges
-to `main` through a Pull Request. On your first Pull Request, check that its base
-is your group fork's `main` branch, not this upstream starter.
+This repo is a WBS CODING SCHOOL template. **Use this template** (the green
+button on GitHub) to create your group's own repo, then add your team members as
+collaborators. One repo, everyone works in it, and every change merges to `main`
+through a Pull Request.
 
 ## Where you are
 
 Five stages. Each stage names what ends it, which is the part easy to lose sight
 of from the inside.
 
-1. **Fork it, clone it, run `/onboard`.** Ends when the only open item is
-   `PLAN.md`. That is stage 2, and it stays open until you get there.
-   Everything above it should pass.
+1. **Create your repo from this template, clone it, run `/onboard`.** Ends
+   when the only open item is `PLAN.md`. That is stage 2, and it stays open
+   until you get there. Everything above it should pass.
 2. **Meet, and write `PLAN.md` together.** Ends when the check passes: every
    member listed has a task line, and your own git email is one of them. Until
    then the agent writes no code for anyone in the group.
@@ -30,7 +30,7 @@ of from the inside.
 
 | ID        | Requirement                                                                                                               |
 | --------- | ------------------------------------------------------------------------------------------------------------------------- |
-| FR003     | Work in one public group fork, add every teammate as a collaborator, and target that fork with Pull Requests.             |
+| FR003     | Work in one public repo created from the template, and add every teammate as a collaborator.                             |
 | FR004     | Work on task branches and merge every code change into `main` through a Pull Request.                                     |
 | FR005     | Build on the provided React and Vite starter.                                                                             |
 | FR006     | Agree on one styling solution at kickoff and use it consistently.                                                         |
@@ -210,7 +210,7 @@ plan, never whether it was any good.
 ## Splitting the work
 
 `PLAN.md` is the snapshot from the kickoff. **From then on your tasks are GitHub
-Issues on your fork.** `/onboard` can create them from your task lines, or make
+Issues on your repo.** `/onboard` can create them from your task lines, or make
 them by hand. The issues are the live version and nothing syncs them back.
 
 Write them yourselves either way. The agent will not give you a breakdown. Once
